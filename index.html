@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"
+    />
+  </head>
+  <body>
+    <nav class="menu-nav">
+      <a class="link-sup" href="">HOME</a>
+      <a class="link-sup borda" href="">QUEM SOMOS</a>
+      <a class="link-sup borda" href="">POLÍTICA DE PRIVACIDADE</a>
+      <a class="link-sup borda" href="">TERMOS DE USO</a>
+      <a class="link-sup borda" href="">CONTATO</a>
+    </nav>
+
+    <header class="logo">
+      <div class="logo-img">
+        <img
+          height="150px"
+          src="./logo/noticias-digitais.png"
+          alt="Logo Site"
+        />
+        <p>Santos Notícias: A Agilidade no jornalismo</p>
+      </div>
+
+      <div class="clima">
+        <span>HOJE</span>
+        <span class="mdi mdi-weather-pouring cloud"></span>
+        <span class="max">27º</span>
+        <span class="min">20º</span>
+      </div>
+    </header>
+
+    <nav class="links-container">
+      <div class="links">
+        <ul class="link-dropdown">
+          <li><a class="link-drop" href="">HOME</a></li>
+          <li class="lista-drop">
+            <a class="link-drop" href="">CIDADE</a>
+            <ul class="drop-menu">
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+            </ul>
+          </li>
+          <li class="lista-drop">
+            <a class="link-drop" href="">GERAL</a>
+            <ul class="drop-menu">
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+            </ul>
+          </li>
+          <li class="lista-drop">
+            <a class="link-drop" href="">POLICIA</a>
+            <ul class="drop-menu">
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+            </ul>
+          </li>
+          <li class="lista-drop">
+            <a class="link-drop" href="">VARIEDADES</a>
+            <ul class="drop-menu">
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+              <li><a class="link-drop-menu" href="">Link</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="menu-mobile">
+          <div class="button-mobile">
+            <img
+              onclick="mobile()"
+              class="icon"
+              width="45px"
+              src="./img/abre.svg"
+              alt=""
+            />
+          </div>
+
+          <ul class="list-menu-mobile">
+            <li class="link-mobile"><a class="link-mob" href="">HOME</a></li>
+            <li class="link-mobile"><a class="link-mob" href="">CIDADE</a></li>
+            <li class="link-mobile"><a class="link-mob" href="">GERAL</a></li>
+            <li class="link-mobile"><a class="link-mob" href="">POLÍCIA</a></li>
+            <li class="link-mobile">
+              <a class="link-mob" href="">VARIEDADES</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="link-redes">
+          <p class="text-redes">Você Reporter:</p>
+          <a class="mdi mdi-whatsapp redes" href=""></a>
+          <a class="mdi mdi-facebook redes" href=""></a>
+          <a class="mdi mdi-instagram redes" href=""></a>
+          <a class="mdi mdi-youtube redes" href=""></a>
+          <a class="mdi mdi-magnify redes search" href=""></a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="destaques">
+      <h1 class="title-news">DESTAQUES</h1>
+
+      <div class="noticias">
+        <div class="news">
+          <a href=""
+            ><img class="img-news-dest" src="./img/noticia4.jpg" alt=""
+          /></a>
+          <a class="text-news" href="">Notícia em destaque de hoje</a>
+        </div>
+        <div class="news">
+          <a href=""
+            ><img class="img-news-dest" src="./img/noticia5.jpg" alt=""
+          /></a>
+          <a class="text-news" href="">Notícia em destaque de hoje</a>
+        </div>
+        <div class="news">
+          <a href=""
+            ><img class="img-news-dest" src="./img/noticia6.jpg" alt=""
+          /></a>
+          <a class="text-news" href="">Notícia em destaque de hoje</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mais-noticias">
+      <div class="container">
+        <h1 class="title-news-more">MAIS NOTÍCIAS</h1>
+
+        <div class="noticias">
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia7.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia8.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia9.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia10.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+        </div>
+
+        <div class="noticias">
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia11.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia12.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia13.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia14.jpg" alt=""
+            /></a>
+            <a class="text-news-more" href="">Notícia em destaque de hoje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-more-more">
+      <div class="noticias-more">
+        <h1 class="title-news-more-more">MAIS NOTÍCIAS</h1>
+        <div class="container2">
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia15.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia16.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia17.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia18.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="veja-tambem">
+      <div class="see-more see-more1">
+        <h1 class="title-news-more-more">VEJA TAMBÉM</h1>
+        <div class="container2">
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia19.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia20.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia1.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia2.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more">
+        <div class="container2">
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia1.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia2.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia3.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia3.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="see-more">
+        <div class="container2">
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia1.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia2.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia3.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+          <div class="news-more">
+            <a href=""
+              ><img class="img-news1" src="./img/noticia3.jpg" alt=""
+            /></a>
+            <a class="text-news" href="">Notícia em destaque de hoje</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <div class="botao-noticias">
+      <a class="ver-mais" href="">Ver mais notícias</a>
+    </div>
+
+    <footer class="rodape-principal">
+      <div class="rodape">
+        <div class="logo-redes">
+          <img
+            height="150px"
+            class="logo-rodape"
+            src="./logo/noticias-digitais.png"
+            alt=""
+          />
+        </div>
+
+        <div class="rodape1">
+          <div class="links-rapidos">
+            <h2>LINKS RÁPIDOS</h2>
+            <a class="link-rapido" href="">HOME</a>
+            <a class="link-rapido" href="">GERAL</a>
+            <a class="link-rapido" href="">VARIEDADES</a>
+            <a class="link-rapido" href="">CIDADES</a>
+            <a class="link-rapido" href="">POLÍCIA</a>
+          </div>
+
+          <div class="report">
+            <div class="contact">
+              <p class="text-link-contact">VC Repórter/Fale conosco!</p>
+              <a class="link-mail" href="">(14) 98812-9119</a>
+            </div>
+
+            <div class="email">
+              <p class="text-link-contact">E-mail</p>
+              <a class="link-mail" href="mailto:rodrigosantosdev1@gmail.com"
+                >rodrigosantosdev1@gmail.com</a
+              >
+            </div>
+
+            <p class="politica">
+              <a class="privacidade" href="">Política de Privacidade</a>
+            </p>
+          </div>
+        </div>
+        <div class="copy">
+          <p class="mdi mdi-copyright">
+            Santos Notícias - A agilidade do Jornalismo On-line. Todos os
+            direitos reservados
+          </p>
+        </div>
+      </div>
+    </footer>
+    <p class="desenvolvido">Desenvolvido por Rodrigo Santos.</p>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

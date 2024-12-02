@@ -1,0 +1,114 @@
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 238, 238);
+  padding: 15px;
+  font-family: var(--fonte-principal);
+  font-size: 13px;
+}
+
+.link-sup {
+  padding: 3px 10px;
+  text-decoration: none;
+  color: gray;
+}
+
+.borda {
+  border-left: 1.5px solid gray;
+}
+
+.link-sup:hover {
+  color: var(--cor-principal-verde);
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--fonte-principal);
+  padding: 2rem 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.logo-img > img {
+  align-self: flex-start;
+  padding-left: 8rem;
+}
+
+.logo-img > p {
+  align-self: flex-start;
+  padding-left: 2rem;
+}
+
+.clima {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.cloud {
+  font-size: 25px;
+  color: rgb(86, 86, 185);
+}
+
+.max {
+  color: red;
+}
+
+.min {
+  color: cadetblue;
+}
+
+span {
+  padding: 1px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-nav,
+  .clima {
+    display: none;
+  }
+
+  .logo-img {
+    display: block;
+    text-align: center;
+  }
+
+  .logo-img > img {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .clima {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo {
+    width: 75%;
+  }
+
+  .logo-img > img {
+    align-self: flex-start;
+  }
+
+  .logo-img > p {
+    align-self: flex-start;
+  }
+
+  span {
+    align-self: flex-end;
+    padding-right: 3rem;
+  }
+}

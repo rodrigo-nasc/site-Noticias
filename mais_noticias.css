@@ -1,0 +1,284 @@
+.veja-tambem {
+  padding-bottom: 2rem;
+}
+
+.mais-noticias {
+  background-color: var(--cor-principal-verde);
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.title-news-more {
+  color: white;
+  font-family: var(--fonte-principal);
+  margin-left: 1.6%;
+  border-left: 5px solid white;
+  padding: 0 5px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.news-more {
+  width: 22%;
+  margin-top: 2rem;
+}
+
+.text-news-more {
+  text-decoration: none;
+  font-family: var(--fonte-principal);
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+
+.news-more-more {
+  background-color: rgb(244, 241, 241);
+}
+
+.noticias-more {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.title-news-more-more {
+  font-family: var(--fonte-principal);
+  margin-left: 1.6%;
+  border-left: 5px solid var(--cor-principal-verde);
+  padding: 0 5px;
+  color: var(--cor-principal-verde);
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.see-more {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.see-more1 {
+  padding-top: 3rem;
+}
+
+hr {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  .veja-tambem {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .news-more {
+    width: 95%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .img-news-dest {
+    height: 250px;
+  }
+  .img-news1 {
+    height: 150px;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .mais-noticias {
+    padding-bottom: 0.5rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title-news-more {
+    width: 85%;
+    margin: 0.5rem auto;
+  }
+
+  .destaques,
+  .noticias-more {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .text-news-more,
+  .text-news {
+    font-size: 15px;
+  }
+
+  .see-more,
+  .see-more1 {
+    margin-top: 0%;
+    padding: 0%;
+  }
+
+  .noticias-more {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container2 {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title-news-more-more {
+    width: 85%;
+    margin: 0.5rem auto;
+  }
+
+  .see-more {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .veja-tambem {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .news-more {
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  .img-news1 {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+  }
+
+  .mais-noticias {
+    padding-bottom: 0.5rem;
+  }
+
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .title-news-more {
+    width: 94%;
+    margin: 0.5rem auto;
+  }
+
+  .destaques,
+  .noticias-more {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .text-news-more,
+  .text-news {
+    font-size: 18px;
+  }
+
+  .see-more,
+  .see-more1 {
+    margin-top: 0%;
+    padding: 0%;
+  }
+
+  .noticias-more {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .container2 {
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .title-news-more-more {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .see-more {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  hr {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .noticias {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .container2 {
+    flex-direction: row;
+    flex-flow: row wrap;
+  }
+
+  .news-more {
+    width: 45%;
+    margin: 1rem 0.5rem;
+  }
+
+  .img-news1 {
+    height: 200px;
+  }
+
+  .title-news-more {
+    width: 94.5%;
+    margin: 0.5rem auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .news-more {
+    width: 21%;
+  }
+
+  .container,
+  .container2 {
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .img-news1 {
+    height: 180px;
+    width: 100%;
+  }
+
+  .title-news-more {
+    width: 96%;
+    margin: 0 auto;
+  }
+
+  .title-news-more-more {
+    width: 75%;
+  }
+
+  .text-news-more,
+  .text-news {
+    font-size: 16px;
+  }
+}

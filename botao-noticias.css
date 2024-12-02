@@ -1,0 +1,20 @@
+.botao-noticias {
+  text-align: center;
+  margin: 1.5rem 1.5rem;
+}
+
+.ver-mais {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-family: var(--fonte-principal);
+  color: black;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+
+.ver-mais:hover {
+  color: white;
+  background-color: var(--cor-principal-verde);
+}

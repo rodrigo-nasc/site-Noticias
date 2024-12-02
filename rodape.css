@@ -1,0 +1,240 @@
+.rodape-principal {
+  background-color: var(--cor-principal-verde);
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+h2 {
+  color: white;
+}
+
+.logo-redes {
+  width: 40%;
+  text-align: center;
+  padding: 69px;
+}
+
+.rodape1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  padding: 15px;
+  flex-flow: row wrap;
+}
+
+.links-rapidos {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  font-family: var(--fonte-principal);
+  padding: 2px;
+  width: 50%;
+}
+
+.link-rapido {
+  text-decoration: none;
+  color: white;
+  padding: 6px 0;
+}
+
+.link-rapido:hover {
+  color: greenyellow;
+}
+
+.report {
+  font-family: var(--fonte-principal);
+  color: white;
+  width: 50%;
+}
+
+.copy {
+  width: 100%;
+  color: white;
+  font-family: var(--fonte-principal);
+  font-size: 12px;
+  padding-top: 5px 10px;
+}
+
+.link-mail {
+  text-decoration: none;
+  color: white;
+}
+
+.contact,
+.email,
+.politica {
+  padding: 15px 0;
+}
+
+.privacidade:hover {
+  color: greenyellow;
+}
+
+.link-mail:hover {
+  color: greenyellow;
+}
+
+.politica:hover {
+  color: greenyellow;
+}
+
+.text-link-contact {
+  font-weight: bold;
+}
+
+.privacidade {
+  text-decoration: none;
+  color: white;
+}
+
+.desenvolvido {
+  background-color: rgb(8, 100, 60);
+  padding: 10px 0;
+  text-align: center;
+  font-family: var(--fonte-principal);
+  color: white;
+}
+
+.copy {
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .rodape {
+    flex-direction: column;
+  }
+  .logo-redes {
+    width: 100%;
+    background-color: var(--cor-principal-verde);
+    padding: 2rem;
+    text-align: start;
+  }
+  .contact,
+  .email,
+  .politica {
+    padding: 8px 0;
+  }
+  .rodape1 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .copy {
+    padding: 1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .rodape {
+    flex-direction: column;
+  }
+  .logo-redes {
+    width: 100%;
+    background-color: var(--cor-principal-verde);
+    padding: 2rem;
+    text-align: start;
+  }
+  .contact,
+  .email,
+  .politica {
+    padding: 8px 0;
+  }
+  .rodape1 {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .copy {
+    padding: 1rem;
+    color: white;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .rodape {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .rodape,
+  .rodape1 {
+    flex-direction: row;
+    flex-flow: row wrap;
+  }
+
+  .logo-redes {
+    width: 34%;
+  }
+
+  .rodape1 {
+    width: 65%;
+    padding: 10px;
+  }
+
+  .link-rapido {
+    font-size: 13px;
+  }
+
+  .copy {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .text-link-contact,
+  .link-mail,
+  .politica {
+    font-size: 15px;
+  }
+  .contact {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .rodape {
+    width: 78%;
+    margin: 0 auto;
+  }
+
+  .logo-redes {
+    width: 40%;
+  }
+  .rodape1 {
+    width: 60%;
+  }
+
+  .report {
+    padding-left: 2rem;
+  }
+
+  .links-rapidos {
+    padding-left: 3rem;
+  }
+
+  .link-rapido {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  .text-link-contact,
+  .link-mail,
+  .politica {
+    font-size: 18px;
+  }
+
+  .copy {
+    text-align: center;
+  }
+}
